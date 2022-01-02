@@ -26,16 +26,16 @@ public class MainActivity extends AppCompatActivity {
 
         if (guessInt > randomNumber) {
 
-            makeToast("Lower!");
+            makeToast("LOWER!");
 
 
         } else if (guessInt < randomNumber) {
 
-            makeToast("Higher!");
+            makeToast("HIGHER!");
 
         } else {
 
-            makeToast("That's right! Try again!");
+            makeToast("That's RIGHT! Try again!");
 
             Random rand = new Random();
 
